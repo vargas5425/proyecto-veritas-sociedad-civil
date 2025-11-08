@@ -1,0 +1,292 @@
+:root {
+  --primary-color: #1a365d;
+  --secondary-color: #2d3748;
+  --accent-color: #cbd5e0;
+  --gold-color: #d4af37;
+  --text-dark: #2d3748;
+  --text-light: #718096;
+}
+
+.hero-section * {
+  position: relative;
+  z-index: 10;
+}
+
+img, header, .header-image-section {
+  pointer-events: none;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-dark);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 80px;
+  z-index: 10;
+  position: relative;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* Feature Cards */
+.feature-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+/* Section Titles */
+.section-title {
+  color: var(--primary-color);
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.section-subtitle {
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  padding: 12px 30px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+/* Forms */
+.form-control {
+  border: 2px solid #e2e8f0;
+  padding: 12px 15px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 0.2rem rgba(26, 54, 93, 0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  body {
+    padding-top: 66px;
+  }
+  
+  .hero-section {
+    padding: 100px 0 60px;
+    text-align: center;
+  }
+}
+
+/* Blog Cards */
+.blog-card {
+  transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Service Cards */
+.service-card {
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Dashboard */
+.dashboard-header {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+}
+
+/* Team Images */
+.team-img {
+  width: 80px;
+  height: 80px;
+  background: #f8f9fa;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.team-member-page .member-avatar {
+  border: 4px solid #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.team-member-page .contact-info a:hover {
+  text-decoration: underline !important;
+}
+
+.team-member-page ul li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Estilos para las flip cards con hover */
+.flip-card {
+  perspective: 1000px;
+  width: 100%;
+  height: 400px; /* Ajusta según necesites */
+  cursor: pointer;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(-180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.card-img-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.flip-card:hover .card-img {
+  transform: scale(1.05);
+}
+
+/* ============================
+   TEAM MEMBER PAGE
+============================ */
+
+.team-member-page {
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+/* HEADER estilo Pamela Muñoz */
+.member-header {
+  background: linear-gradient(135deg, #0a1a33 60%, #122b54);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6% 0;
+  position: relative;
+  overflow: hidden;
+  border-bottom: 5px solid #c00; /* línea roja */
+}
+
+.member-header-content {
+  max-width: 50%;
+}
+
+.member-name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: -10px;
+  color: #fff;
+}
+
+.member-lastname {
+  font-size: 5rem;
+  font-weight: 700;
+  color: #cbd5e0;
+}
+
+.member-position {
+  font-weight: 600;
+  margin: 1rem 0;
+}
+
+.member-photo {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  z-index: 2;
+}
+
+/* Links */
+.member-header a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.member-header a:hover {
+  color: var(--gold-color);
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .member-header {
+    flex-direction: column;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+
+  .member-header-content {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .member-photo {
+    width: 220px;
+  }
+}
