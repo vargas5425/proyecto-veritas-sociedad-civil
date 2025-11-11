@@ -64,7 +64,7 @@ const About = () => {
       <div className="row">
         <div className="col-12 text-center mb-5">
           <h1 className="display-4 fw-bold text-primary">Sobre Nosotros</h1>
-          <p className="lead">Más de 20 años de excelencia legal</p>
+          <p className="lead">Más de 5 años de excelencia legal</p>
         </div>
       </div>
 
@@ -72,7 +72,7 @@ const About = () => {
         <div className="col-lg-6">
           <h2 className="fw-bold mb-4">Nuestra Historia</h2>
           <p className="mb-4">
-            <strong>"Veritas Sociedad Civil Profesional"</strong> nació del compromiso compartido entre un grupo de abogadas 
+            <strong>"Veritas Soc. Civ."</strong> nació del compromiso compartido entre un grupo de abogadas 
             apasionadas por el derecho familiar y la justicia social. Al identificar la necesidad creciente 
             de asesoría accesible y humana en casos de divorcio y asistencia familiar, decidimos unir fuerzas 
             para crear un espacio profesional que priorice la verdad, la justicia y el respeto. Desde nuestros 

@@ -27,7 +27,7 @@ const Home = () => {
             <div className="col-lg-6">
               <h1 className="display-4 fw-bold text-white mb-4">Excelencia Legal con Integridad</h1>
               <p className="lead text-white mb-4">
-                En CONSORTIUM VERITAS combinamos experiencia, innovación y compromiso para ofrecer 
+                En VERITAS SOC. CIV. combinamos experiencia, innovación y compromiso para ofrecer 
                 soluciones legales efectivas y personalizadas.
               </p>
               <div className="hero-buttons">
@@ -53,7 +53,7 @@ const Home = () => {
               <div className="feature-card text-center p-4">
                 <i className="fas fa-gavel feature-icon"></i>
                 <h4>Experiencia</h4>
-                <p>Más de dos décadas resolviendo casos complejos con éxito demostrable.</p>
+                <p>Más de 5 años resolviendo casos complejos con éxito demostrable.</p>
               </div>
             </div>
             <div className="col-md-4 mb-4">

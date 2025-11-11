@@ -17,7 +17,7 @@ export const teamMembers = {
       'Diplomado en Medidas Cautelares y Protección Familiar, Universidad Privada Boliviana (UPB).',
       'Seminarios en Apelaciones y Recursos en Derecho Familiar, Universidad Mayor de San Andrés (UMSA).'
     ],
-    description: "Especialista en derecho corporativo con amplia experiencia en asesoría legal a empresas nacionales e internacionales."
+    description: "Especialista en Derecho de Familia con enfoque en procesos de asistencia familiar bajo la Ley 603"
   },
 
   '2': {
@@ -29,7 +29,7 @@ export const teamMembers = {
     whatsapp: '59175555517',
     image: '/images/luciane2.png',
     experience: [
-      "Profesional especializada en la ejecución inmediata y modificación de obligaciones alimenticias conforme a la Ley 603. La Dra. Cuellar asesorará y representará en la liquidación, notificación, intimación y ejecución judicial de pensiones alimenticias, aplicando medidas coercitivas como embargos y apremios corporales para garantizar el cumplimiento de las obligaciones. También tiene experiencia en la gestión de modificaciones y cese de asistencia familiar, acompañando a sus clientes en procedimientos que garantizan la protección y respeto de los derechos de los menores y beneficiarios."
+      "La Dra. Cuellar asesorará y representará en la liquidación, notificación, intimación y ejecución judicial de pensiones alimenticias, aplicando medidas coercitivas como embargos y apremios corporales para garantizar el cumplimiento de las obligaciones. También con amplia experiencia en la gestión de modificaciones y cese de asistencia familiar, acompañando a sus clientes en procedimientos que garantizan la protección y respeto de los derechos de los menores y beneficiarios."
     ],
     education: [
       'Licenciada en Derecho, Universidad NUR.',
@@ -37,7 +37,7 @@ export const teamMembers = {
       'Diplomado en Derecho Procesal Familiar, Universidad Católica Boliviana San Pablo (UCB).',
       'Capacitación en Medidas Coercitivas y Cumplimiento de Obligaciones, Universidad Privada Franz Tamayo.'
     ],
-    description: "Especialista en derecho de familia y ejecución de obligaciones alimenticias."
+    description: "Especialista en derecho de familia y ejecución de obligaciones alimenticias conforme a la Ley 603."
   },
 
   '3': {
@@ -57,7 +57,7 @@ export const teamMembers = {
       'Maestría en Derecho Civil y Procesal Familiar, Universidad Pública de El Alto (UPEA).',
       'Curso avanzado en Desvinculación Notarial y Divorcio, Universidad Privada Boliviana (UPB).'
     ],
-    description: "Especializada en derecho administrativo y contratación estatal con más de 10 años de experiencia asesorando a entidades públicas y privadas."
+    description: "Experta en gestión integral de requisitos para desvinculación notarial, incluyendo liquidación de bienes gananciales y acuerdos de asistencia familiar"
   },
 
   '4': {
@@ -77,6 +77,6 @@ export const teamMembers = {
       'Especialización en Gestión de Procesos de Divorcio, Universidad Mayor de San Simón (UMSS).',
       'Taller de Derecho Procesal Familiar, Universidad Privada Franz Tamayo.'
     ],
-    description: "Especialista en derecho laboral con enfoque en la protección de derechos de trabajadores y asesoría integral a empresas en materia de relaciones laborales, contratación y seguridad social."
+    description: "Experta en gestión de demandas, contestaciones, excepciones, audiencias y sentencias definitivas"
   }
 };

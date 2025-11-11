@@ -1,8 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { blogPosts, categories } from '../utils/blogData';
 import { Link } from 'react-router-dom';
 
 const Blog = () => {
+    const [currentPage, setCurrentPage] = useState(1);
+  const postsPerPage = 4;
+
+  const indexOfLastPost = currentPage * postsPerPage;
+  const indexOfFirstPost = indexOfLastPost - postsPerPage;
+  const currentPosts = blogPosts.slice(indexOfFirstPost, indexOfLastPost);
+
+  const totalPages = Math.ceil(blogPosts.length / postsPerPage);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
+  const goToPreviousPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
   return (
     <div className="container mt-5 pt-5">
       <div className="row">
@@ -15,7 +37,7 @@ const Blog = () => {
       <div className="row">
         <div className="col-lg-8">
           <div className="row">
-            {blogPosts.map(post => (
+            {currentPosts.map(post => (
               <div key={post.id} className="col-md-6 mb-4">
                 <div className="card blog-card h-100 border-0 shadow">
                   <div className="card-body">
@@ -43,14 +65,37 @@ const Blog = () => {
           {/* Paginación */}
           <nav aria-label="Page navigation" className="mt-5">
             <ul className="pagination justify-content-center">
-              <li className="page-item disabled">
-                <a className="page-link" href="#" tabIndex="-1">Anterior</a>
+              <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
+                <button 
+                  className="page-link" 
+                  onClick={goToPreviousPage}
+                  disabled={currentPage === 1}
+                >
+                  Anterior
+                </button>
               </li>
-              <li className="page-item active"><a className="page-link" href="#">1</a></li>
-              <li className="page-item"><a className="page-link" href="#">2</a></li>
-              <li className="page-item"><a className="page-link" href="#">3</a></li>
-              <li className="page-item">
-                <a className="page-link" href="#">Siguiente</a>
+              {[...Array(totalPages)].map((_, index) => (
+                <li 
+                  key={index + 1} 
+                  className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}
+                >
+                  <button 
+                    className="page-link" 
+                    onClick={() => paginate(index + 1)}
+                  >
+                    {index + 1}
+                  </button>
+                </li>
+              ))}
+              
+              <li className={`page-item ${currentPage === totalPages ? 'disabled' : ''}`}>
+                <button 
+                  className="page-link" 
+                  onClick={goToNextPage}
+                  disabled={currentPage === totalPages}
+                >
+                  Siguiente
+                </button>
               </li>
             </ul>
           </nav>

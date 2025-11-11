@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <Link className="navbar-brand" to="/">
           <i className="fas fa-balance-scale me-2"></i>
-          CONSORTIUM VERITAS
+          VERITAS SOC. CIV.
         </Link>
         
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

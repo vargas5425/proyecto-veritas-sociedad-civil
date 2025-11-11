@@ -31,8 +31,40 @@ const BlogPost = () => {
         </div>
 
         <div className="col-12">
-          <p>{post.excerpt}</p>
-          {/* Aquí puedes agregar más contenido si quieres */}
+          {/* Mostrar el excerpt primero */}
+          <div className="lead mb-4 p-3 bg-light rounded">
+            {post.excerpt}
+          </div>
+
+          {/* Renderizar el contenido estructurado */}
+          {post.content && post.content.map((section, index) => (
+            <section key={index} className="mb-5">
+              <h2 className="h3 text-secondary mb-3">{section.subtitle}</h2>
+              {section.paragraphs.map((paragraph, pIndex) => (
+                <p key={pIndex} className="mb-3">
+                  {paragraph}
+                </p>
+              ))}
+            </section>
+          ))}
+
+          {/* Fallback para posts antiguos que solo tienen content como string */}
+          {!post.content && typeof post.content === 'string' && (
+            <div className="article-content">
+              {post.content.split('\n').map((paragraph, index) => (
+                <p key={index} className="mb-3">
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Botón para volver al final */}
+        <div className="col-12 mt-5 text-center">
+          <Link to="/blog" className="btn btn-outline-primary">
+            &larr; Volver al Blog
+          </Link>
         </div>
       </div>
     </div>

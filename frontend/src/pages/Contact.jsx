@@ -271,12 +271,11 @@ const Contact = () => {
                       name="serviceType"
                     >
                       <option value="">Seleccionar...</option>
-                      <option value="corporativo">Derecho Corporativo</option>
-                      <option value="inmobiliario">Derecho Inmobiliario</option>
+                      <option value="corporativo">Obligaciones y Derechos </option>
+                      <option value="inmobiliario">Asistencia Familiar</option>
                       <option value="familia">Derecho de Familia</option>
-                      <option value="penal">Litigio Penal</option>
-                      <option value="laboral">Derecho Laboral</option>
-                      <option value="propiedad">Propiedad Intelectual</option>
+                      <option value="penal">Regimen de Visitas</option>
+                      <option value="laboral">Medidas Cautelares</option>
                       <option value="otro">Otro</option>
                     </select>
                   </div>
@@ -326,12 +325,12 @@ const Contact = () => {
               <div className="mb-3">
                 <i className="fas fa-phone text-primary me-2"></i>
                 <strong>Teléfono:</strong><br />
-                +1 (234) 567-8900
+                +591 (700) 567-890
               </div>
               <div className="mb-3">
                 <i className="fas fa-envelope text-primary me-2"></i>
                 <strong>Email:</strong><br />
-                info@consortiumveritas.com
+                info@veritas-sociedad-civil.com
               </div>
               <div className="mb-3">
                 <i className="fas fa-clock text-primary me-2"></i>

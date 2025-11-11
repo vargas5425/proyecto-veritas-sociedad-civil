@@ -39,7 +39,7 @@ const TeamMember = () => {
             <p>
               <i className="fab fa-whatsapp me-2"></i>
               <a
-                href={`https://wa.me/${member.whatsapp}?text=Hola%20${member.name},%20quiero%20contactarme%20contigo`}
+                href={`https://wa.me/${member.whatsapp}?text=Hola%20${member.name},%20quiero%20mas%20informacion`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-white text-decoration-none"
