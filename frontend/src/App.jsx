@@ -10,25 +10,74 @@ import Contact from './pages/Contact';
 import './styles/main.css';
 import TeamMember from './pages/TeamMember';
 import BlogPost from './pages/blogPost';
+import RouteWithScrollToTop from './components/routeWithScrollToTop';
 
 function App() {
   return (
-
-      <div className="App">
-        <Header />
-        <main>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/team/:id" element={<TeamMember />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
-          </Routes>
-        </main>
-        <Footer />
-      </div>
+    <div className="App">
+      <Header />
+      <main>
+        <Routes>
+          <Route 
+            path="/" 
+            element={
+              <RouteWithScrollToTop>
+                <Home />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/about" 
+            element={
+              <RouteWithScrollToTop>
+                <About />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/services" 
+            element={
+              <RouteWithScrollToTop>
+                <Services />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/blog" 
+            element={
+              <RouteWithScrollToTop>
+                <Blog />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/contact" 
+            element={
+              <RouteWithScrollToTop>
+                <Contact />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/team/:id" 
+            element={
+              <RouteWithScrollToTop>
+                <TeamMember />
+              </RouteWithScrollToTop>
+            } 
+          />
+          <Route 
+            path="/blog/:id" 
+            element={
+              <RouteWithScrollToTop>
+                <BlogPost />
+              </RouteWithScrollToTop>
+            } 
+          />
+        </Routes>
+      </main>
+      <Footer />
+    </div>
   );
 }
 

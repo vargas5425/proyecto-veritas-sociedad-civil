@@ -44,6 +44,7 @@ const Blog = () => {
                     <span className="badge bg-primary mb-2">{post.category}</span>
                     <h5 className="card-title">{post.title}</h5>
                     <p className="card-text text-muted">{post.excerpt}</p>
+                    <p className="card-text text-muted">{post.description}</p>
                     <div className="blog-meta mt-auto">
                       <small className="text-muted">
                         <i className="fas fa-user me-1"></i>{post.author} • 

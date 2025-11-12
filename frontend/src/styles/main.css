@@ -21,6 +21,35 @@ body {
   color: var(--text-dark);
 }
 
+/* ============================
+   HEADER & NAVBAR FIXES - NUEVOS ESTILOS
+============================ */
+
+/* CAMBIO: Asegurar que no haya espacios en blanco entre navbar y header */
+.header-image-section {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.header-image-section img {
+  display: block;
+  margin-top: 0;
+}
+
+/* CAMBIO: Imagen header responsive */
+.header-image-section img {
+  max-height: 600px; /* Reducido para móviles */
+  object-fit: cover;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .header-image-section img {
+    max-height: 300px; /* Más pequeño en móviles */
+    min-height: 200px;
+  }
+}
+
 /* Hero Section */
 .hero-section {
   background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -38,6 +67,45 @@ body {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.3);
+}
+
+/* ============================
+   BOTONES RESPONSIVE - NUEVOS ESTILOS
+============================ */
+
+/* CAMBIO: Contenedor flexible para botones */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+/* CAMBIO: En móviles, botones en columna con buen espaciado */
+@media (max-width: 576px) {
+  .hero-buttons {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+  
+  .hero-buttons .btn {
+    width: 100%;
+    max-width: 280px;
+    margin: 0.25rem 0;
+  }
+  
+  .hero-buttons .me-3 {
+    margin-right: 0 !important;
+  }
+}
+
+/* CAMBIO: Para tablets - centrar botones */
+@media (max-width: 768px) and (min-width: 577px) {
+  .hero-buttons {
+    justify-content: center;
+    gap: 1rem;
+  }
 }
 
 /* Feature Cards */
@@ -99,16 +167,38 @@ body {
   box-shadow: 0 0 0 0.2rem rgba(26, 54, 93, 0.25);
 }
 
-/* Responsive */
+/* ============================
+   RESPONSIVE MEJORADO - CAMBIOS ACTUALIZADOS
+============================ */
+
 @media (max-width: 768px) {
+  /* CAMBIO: Ajustado padding-top para compensar navbar fixed */
   body {
-    padding-top: 66px;
+    padding-top: 76px;
   }
   
+  /* CAMBIO: Hero section con padding mejorado */
   .hero-section {
-    padding: 100px 0 60px;
+    padding: 80px 0 40px;
+    margin-top: 0;
     text-align: center;
   }
+  
+  /* CAMBIO: Textos más legibles en móviles */
+  .hero-section h1.display-4 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-section .lead {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* CAMBIO: Asegurar que no haya overflow horizontal */
+.container-fluid {
+  overflow-x: hidden;
 }
 
 /* Blog Cards */
@@ -159,12 +249,32 @@ body {
   line-height: 1.6;
 }
 
-/* Estilos para las flip cards con hover */
+/* ============================
+   FLIP CARDS RESPONSIVE
+============================ */
+
 .flip-card {
   perspective: 1000px;
   width: 100%;
-  height: 400px; /* Ajusta según necesites */
+  height: 400px;
   cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+/* Para móviles - altura más pequeña */
+@media (max-width: 768px) {
+  .flip-card {
+    height: 350px;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .flip-card {
+    height: 320px;
+  }
 }
 
 .flip-card-inner {
@@ -176,8 +286,16 @@ body {
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-card-inner {
+/* En móviles, hacer el flip con click/touch */
+.flip-card.flipped .flip-card-inner {
   transform: rotateY(-180deg);
+}
+
+/* Hover solo para desktop */
+@media (min-width: 769px) {
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(-180deg);
+  }
 }
 
 .flip-card-front, .flip-card-back {
@@ -186,10 +304,13 @@ body {
   height: 100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .flip-card-back {
   transform: rotateY(180deg);
+  background: white;
 }
 
 .card-img-container {
@@ -206,8 +327,91 @@ body {
   transition: transform 0.3s ease;
 }
 
-.flip-card:hover .card-img {
-  transform: scale(1.05);
+/* Efecto zoom solo en desktop */
+@media (min-width: 769px) {
+  .flip-card:hover .card-img {
+    transform: scale(1.05);
+  }
+}
+
+/* Mejoras para el contenido de las cards */
+.flip-card-back .card-body {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.flip-card-back .card-body h5 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.flip-card-back .card-body p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.flip-card-back .card-body ul {
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.flip-card-back .card-body li {
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+/* Para móviles - ajustar tamaños de texto */
+@media (max-width: 768px) {
+  .flip-card-back .card-body {
+    padding: 1rem;
+  }
+  
+  .flip-card-back .card-body h5 {
+    font-size: 1.1rem;
+  }
+  
+  .flip-card-back .card-body p {
+    font-size: 0.85rem;
+  }
+  
+  .flip-card-back .card-body li {
+    font-size: 0.8rem;
+  }
+}
+
+/* Grid responsive mejorado */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+}
+
+/* Indicador para móviles */
+.mobile-indicator {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-indicator {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--gold-color);
+    margin-top: 0.5rem;
+  }
 }
 
 /* ============================
@@ -288,5 +492,38 @@ body {
 
   .member-photo {
     width: 220px;
+  }
+}
+
+/* Mejoras adicionales para las cards */
+.card-img-overlay {
+  background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 50%);
+}
+
+.card-img-overlay .bg-dark {
+  background: rgba(0,0,0,0.7) !important;
+  border-radius: 5px;
+}
+
+/* Corrige línea blanca solo en pantallas pequeñas */
+@media (max-width: 768px) {
+  body, .navbar, header.header-image-section {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .header-image-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    border-bottom: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar.fixed-top + .header-image-section {
+    margin-top: 0 !important;
   }
 }

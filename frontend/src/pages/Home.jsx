@@ -12,7 +12,7 @@ const Home = () => {
               <img 
                 src="/images/logo8.png" 
                 alt="Header Consortium Veritas" 
-                className="img-fluid w-100"
+                className="img-fluid w-100 header-main-image"
                 style={{ maxHeight: '1000px', objectFit: 'cover' }}
               />
             </div>
@@ -45,7 +45,7 @@ const Home = () => {
           <div className="row text-center mb-5">
             <div className="col">
               <h2 className="section-title">¿Por Qué Elegirnos?</h2>
-              <p className="section-subtitle">Más de 20 años de experiencia nos respaldan</p>
+              <p className="section-subtitle">Más de 5 años de experiencia nos respaldan</p>
             </div>
           </div>
           <div className="row">

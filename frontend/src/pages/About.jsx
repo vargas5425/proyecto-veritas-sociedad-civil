@@ -1,8 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/main.css';
 
 const About = () => {
+  const [flippedCard, setFlippedCard] = useState(null);
+
+  const handleCardClick = (id) => {
+    // En móviles, activar/desactivar flip con click
+    if (window.innerWidth <= 768) {
+      setFlippedCard(flippedCard === id ? null : id);
+    }
+  };
+
   const teamMembers = [
     {
       id: 1,
@@ -111,10 +120,13 @@ const About = () => {
       <div className="row mb-5">
         <div className="col-12">
           <h3 className="text-center mb-4">Nuestro Equipo</h3>
-          <div className="row justify-content-center g-4">
+          <div className="team-grid">
             {teamMembers.map(member => (
-              <div key={member.id} className="col col-md-5 d-flex">
-                <div className="flip-card">
+              <div key={member.id} className="d-flex justify-content-center">
+                <div 
+                  className={`flip-card ${flippedCard === member.id ? 'flipped' : ''}`}
+                  onClick={() => handleCardClick(member.id)}
+                >
                   <div className="flip-card-inner">
                     {/* Cara frontal con la imagen */}
                     <div className="flip-card-front">
@@ -132,6 +144,9 @@ const About = () => {
                             <div className="bg-dark bg-opacity-50 text-white p-3">
                               <h5 className="mb-1">{member.name}</h5>
                               <p className="mb-0">{member.position}</p>
+                              <small className="mobile-indicator">
+                                Toca para ver más
+                              </small>
                             </div>
                           </div>
                         </div>
@@ -145,19 +160,20 @@ const About = () => {
                           <div className="text-center mb-3">
                             <h5>{member.name}</h5>
                             <p className="text-muted">{member.position}</p>
-                            <p>{member.description}</p>
+                            <p className="small">{member.description}</p>
                           </div>
                           <div className="text-start">
-                            <ul>
+                            <ul className="small">
                               {member.specialties.map((specialty, index) => (
                                 <li key={index}>{specialty}</li>
                               ))}
                             </ul>
                           </div>
-                          <div className="mt-3">
+                          <div className="mt-auto pt-3">
                             <Link 
                               to={`/team/${member.id}`} 
                               className="text-primary fw-bold text-decoration-none"
+                              onClick={(e) => e.stopPropagation()}
                             >
                               Contactar &gt;
                             </Link>

@@ -2,327 +2,152 @@
 export const blogPosts = [
   {
     id: '1',
-    title: 'Asistencia Familiar para Mujeres en Estado de Gestación en Bolivia',
-    excerpt: 'La Ley Nº 603, Código de las Familias y del Proceso Familiar, reconoce y protege los derechos de las mujeres en estado de gestación, especialmente en lo relacionado con la asistencia familiar que debe garantizar su bienestar y el adecuado desarrollo del bebé.',
-    author: 'Dra. Aicia Vargas',
+    title: 'LA VÍA RÁPIDA PARA LA DESVINCULACIÓN: EL DIVORCIO NOTARIAL EN BOLIVIA',
+    excerpt: 'El Derecho de Familia boliviano, impulsado por la Ley Nº 603 (Código de las Familias y del Proceso Familiar), ha marcado una innovación vanguardista al consolidar la autonomía de la materia y adoptar un paradigma estatal centrado en el "Vivir Bien". Una de las adiciones más significativas para los cónyuges que buscan una desvinculación amistosa es el Divorcio o Desvinculación Notarial.',
+    author: 'Dra. Nazira Morales',
     date: '15 Ene 2024',
     category: 'Derecho de Familia',
     readTime: '5 min read',
     content: [
     {
-      subtitle: 'Introducción: El Nuevo Paradigma de Protección Familiar',
+      subtitle: '¿Cuándo procede el Divorcio Notarial?',
       paragraphs: [
-        'La Ley Nº 603, Código de las Familias y del Proceso Familiar, promulgada en Bolivia, representa un avance significativo en el reconocimiento y protección de los derechos de las mujeres en estado de gestación, estableciendo un marco jurídico robusto que garantiza su bienestar integral y el adecuado desarrollo del bebé por nacer.',
-        'Esta legislación innovadora consolida la asistencia familiar durante el embarazo como un derecho fundamental, trascendiendo la concepción tradicional de las obligaciones alimentarias para abarcar una protección holística que considera las dimensiones física, emocional y social de la gestación.'
+        'El divorcio notarial es un procedimiento que se realiza por mutuo acuerdo ante la Notaría de Fe Pública. Se trata de una opción disponible únicamente si la pareja cumple, de manera rigurosa, los siguientes requisitos (Art. 206.I):',
+        '1. Mutuo Acuerdo y Consentimiento: Debe existir la voluntad y aceptación de ambos cónyuges para disolver el vínculo matrimonial o la unión libre registrada',
+        '2. Hijos Mayores de 25 Años (o Inexistentes): La pareja no debe tener hijas ni hijos, o si los tienen, estos deben ser mayores de veinticinco (25) años.',
+        '3. Ausencia de Bienes Gananciales Sujetos a Registro: No deben poseer bienes gananciales (adquiridos durante la unión) que estén sujetos a registro público (como inmuebles o vehículos).',
+        '4. Renuncia a la Asistencia Familiar: Debe existir una renuncia expresa a cualquier forma de asistencia familiar por parte de ambos cónyuges.'
       ]
     },
     {
-      subtitle: 'Fundamentos Jurídicos de la Protección a la Mujer Gestante',
+      subtitle: 'El acuerdo regulador de divorcio',
       paragraphs: [
-        'El Código de las Familias boliviano establece que la asistencia familiar durante la gestación constituye una obligación prioritaria y de interés social. Según el artículo 245 de la Ley Nº 603, "la mujer en estado de gestación tiene derecho a recibir asistencia familiar que garantice condiciones adecuadas para su salud y el desarrollo del concebido".',
-        'Este mandato legal se fundamenta en el principio de protección a la maternidad establecido en la Constitución Política del Estado y en los tratados internacionales de derechos humanos ratificados por Bolivia.',
-        'La normativa reconoce que el período de gestación representa una etapa de especial vulnerabilidad que requiere medidas de protección reforzadas. La ley entiende que la salud y el bienestar del neonato están intrínsecamente vinculados a las condiciones en las que se desarrolla el embarazo, estableciendo así una relación directa entre la protección de la mujer gestante y el interés superior del niño por nacer.'
+        'Para iniciar el trámite, los cónyuges deben presentar un acuerdo regulador de divorcio ante la Notaría de Fe Pública correspondiente a su último domicilio conyugal. El Notario se encarga de verificar que todos los requisitos legales se cumplan.',
+        'Si se cumplen las disposiciones, el Notario emitirá un testimonio de la escritura pública para su inscripción y cancelación en el Servicio del Registro Cívico.'
       ]
     },
     {
-      subtitle: 'Alcance y Contenido de la Asistencia Familiar Prenatal',
+      subtitle: 'Advertencia Clave: La Vía Judicial en Caso de Contención',
       paragraphs: [
-        'La asistencia familiar durante la gestación comprende un conjunto integral de prestaciones destinadas a cubrir todas las necesidades derivadas del estado de embarazo. Según la Ley Nº 603, esta asistencia incluye:'
+        'Es fundamental entender que esta vía es exclusivamente para el consenso. Si existe desacuerdo o contención respecto a alguno de los efectos de la desvinculación, si hay incumplimiento del acuerdo o si se detectan irregularidades que pudieran acarrear nulidad, la controversia deberá resolverse obligatoriamente en la instancia judicial.',
+        'El divorcio notarial representa la eficiencia del nuevo Código de las Familias, permitiendo a las familias reorganizar su vida jurídica de manera expedita cuando el proyecto de vida en común ha terminado de forma armoniosa'
       ]
     },
-    {
-      subtitle: 'Atención Médica Integral',
-      paragraphs: [
-        'La mujer gestante tiene derecho a recibir atención médica prenatal especializada, controles periódicos, ecografías, análisis clínicos, vitaminas prenatales y cualquier otro procedimiento médico necesario para monitorear el desarrollo del embarazo.',
-        'La ley establece la obligación de cubrir todos los gastos médicos, incluyendo consultas con especialistas como ginecólogos, obstetras y nutricionistas.'
-      ]
-    },
-    {
-      subtitle: 'Alimentación y Nutrición Especializada',
-      paragraphs: [
-        'El código familiar reconoce que las necesidades nutricionales durante el embarazo son específicas y requieren una alimentación balanceada y suplementos especializados.',
-        'La asistencia alimentaria debe incluir no solo la provisión de alimentos básicos, sino también suplementos vitamínicos, minerales y cualquier otro nutriente esencial prescrito médicamente.'
-      ]
-    },
-    {
-      subtitle: 'Condiciones Dignas de Vivienda y Descanso',
-      paragraphs: [
-        'La legislación establece el derecho de la mujer gestante a contar con condiciones habitacionales adecuadas que garanticen su descanso y bienestar.',
-        'Esto incluye la obligación de proporcionar un ambiente libre de estrés, con espacios adecuados para el reposo y condiciones sanitarias apropiadas.'
-      ]
-    },
-    {
-      subtitle: 'Aspectos Psicológicos y Emocionales',
-      paragraphs: [
-        'Reconociendo la importancia de la salud mental durante el embarazo, la ley incluye la cobertura de atención psicológica y apoyo emocional como parte integral de la asistencia familiar.',
-        'Esto responde a la comprensión de que el bienestar emocional de la madre incide directamente en el desarrollo fetal.'
-      ]
-    },
-    {
-      subtitle: 'Preparación para el Nacimiento',
-      paragraphs: [
-        'La asistencia familiar también abarca los gastos relacionados con la preparación para el parto, incluyendo cursos de psicoprofilaxis, adquisición de implementos necesarios para el recién nacido y preparación del ambiente familiar para la llegada del bebé.'
-      ]
-    },
-    {
-      subtitle: 'Sujetos Obligados y Responsabilidades',
-      paragraphs: [
-        'La Ley Nº 603 establece una jerarquía de responsables en el cumplimiento de la obligación alimentaria durante la gestación. En primer lugar, la responsabilidad recae sobre el presunto padre, quien debe asumir los gastos desde el momento en que tiene conocimiento del embarazo.',
-        'La ley presume la paternidad cuando existe una relación de convivencia o relación sentimental durante el período de concepción.',
-        'En caso de que el presunto padre no pueda cumplir con esta obligación, la responsabilidad se extiende a los abuelos paternos, y en su defecto, a los abuelos maternos. Este sistema de responsabilidad solidaria garantiza que la mujer gestante nunca quede desprotegida, asegurando que siempre exista un obligado que pueda responder por las necesidades derivadas del embarazo.'
-      ]
-    },
-    {
-      subtitle: 'Procedimiento para la Exigibilidad de la Asistencia Prenatal',
-      paragraphs: [
-        'El Código de las Familias establece un procedimiento especial, rápido y eficaz para la reclamación de la asistencia familiar durante la gestación.',
-        'La mujer embarazada puede acudir ante el juez de familia sin necesidad de abogado, presentando una solicitud simple acompañada del certificado médico que acredite el embarazo.',
-        'El procedimiento se caracteriza por su celeridad, con plazos perentorios para la notificación al obligado y la celebración de la audiencia de conciliación. En caso de no llegarse a un acuerdo, el juez puede fijar provisionalmente una pensión alimentaria que entrará en vigor inmediatamente, garantizando así la protección urgente que requiere el estado de gestación.'
-      ]
-    },
-    {
-      subtitle: 'Medidas Cautelares y Mecanismos de Ejecución',
-      paragraphs: [
-        'Ante el riesgo de incumplimiento, la Ley Nº 603 otorga al juez facultades para dictar medidas cautelares inmediatas, como el embargo preventivo de bienes o retención de hasta el 50% del salario del obligado.',
-        'Estas medidas pueden solicitarse incluso antes de la notificación de la demanda, reconociendo la urgencia que caracteriza las necesidades durante el embarazo.',
-        'Para casos de resistencia al pago, la ley establece mecanismos de ejecución coercitiva que incluyen embargos, retenciones bancarias y, en última instancia, apremio corporal. La normativa es particularmente estricta con el incumplimiento de las obligaciones alimentarias durante la gestación, considerándolo como una situación de especial gravedad.'
-      ]
-    },
-    {
-      subtitle: 'Protección Laboral y Social Complementaria',
-      paragraphs: [
-        'El Código de las Familias se articula con la legislación laboral para garantizar una protección integral a la mujer gestante.',
-        'Esto incluye la prohibición de despido por causa de embarazo, el derecho a licencia prenatal y postnatal, y la adaptación de las condiciones laborales para garantizar la salud de la madre y el feto.',
-        'Adicionalmente, la ley establece la obligación del Estado de implementar programas de apoyo social para mujeres gestantes en situación de vulnerabilidad, complementando así la asistencia familiar con medidas de protección social.'
-      ]
-    },
-    {
-      subtitle: 'Perspectivas de Futuro y Desafíos en la Aplicación',
-      paragraphs: [
-        'Si bien la Ley Nº 603 representa un avance significativo, su efectiva implementación enfrenta desafíos importantes.',
-        'La sensibilización de operadores jurídicos, la capacitación de jueces y fiscales en la perspectiva de género, y la eliminación de barreras culturales que obstaculizan el acceso a la justicia de las mujeres gestantes, constituyen retos pendientes.',
-        'El éxito de esta normativa dependerá en gran medida de la articulación entre el sistema judicial, los servicios de salud y las instancias de protección social, creando una red integral de apoyo a la maternidad que trascienda el ámbito meramente legal.'
-      ]
-    },
-    {
-      subtitle: 'Conclusión: Hacia una Protección Integral de la Maternidad',
-      paragraphs: [
-        'La Ley Nº 603, Código de las Familias y del Proceso Familiar, consolida un modelo de protección a la mujer gestante que reconoce la maternidad como una función social de interés colectivo.',
-        'Al establecer la asistencia familiar durante el embarazo como un derecho fundamental, la legislación boliviana avanza hacia la construcción de una sociedad más justa e igualitaria, donde la protección de los derechos de las mujeres y los niños por nacer se erige como pilar fundamental del Estado de Derecho.',
-        'Esta normativa representa no solo un instrumento jurídico, sino una declaración de principios que refleja el compromiso del Estado boliviano con la protección de la vida en todas sus etapas y el reconocimiento del valor social de la maternidad.'
-      ]
-    }
   ]   
   },
   {
   id: '2',
-  title: 'Divorcio por Mutuo Acuerdo en Bolivia: Guía Completa 2024',
-  excerpt: 'Conozca el procedimiento simplificado para disolver el matrimonio cuando ambas partes están de acuerdo, conforme al Código de las Familias Ley N° 603.',
-  author: 'Dra. Nazira Morales',
+  title: 'PROTECCIÓN DESDE LA CONCEPCIÓN: ASISTENCIA FAMILIAR A LA MADRE GESTANTE',
+  excerpt: 'El Código de las Familias y del Proceso Familiar reconoce que la protección estatal a la familia debe ser integral. Esto implica que el apoyo económico y material no espera el nacimiento del nuevo miembro, sino que comienza desde el momento de la gestación.',
+  author: 'Dra. Alicia Vargas',
   date: '12 Ene 2024',
   category: 'Derecho de Familia',
   readTime: '8 min read',
   content: [
     {
-      subtitle: '¿Qué es el Divorcio por Mutuo Acuerdo?',
+      subtitle: '¿Qué es la Asistencia Familiar?',
       paragraphs: [
-        'El divorcio por mutuo acuerdo es un procedimiento legal simplificado mediante el cual ambos cónyuges deciden de común acuerdo poner fin a su matrimonio, conforme a lo establecido en la Ley N° 603 - Código de las Familias.',
-        'Esta modalidad representa una alternativa eficiente y menos conflictiva para disolver el vínculo matrimonial cuando existen acuerdos sobre todos los aspectos derivados del divorcio.'
+        'La asistencia familiar se define como un derecho y una obligación de las familias que cubre todo lo indispensable para el bienestar, incluyendo alimentación, salud, educación, vivienda, recreación y vestimenta. Esta obligación surge ante la necesidad manifiesta de los miembros y es exigible judicialmente si no se presta de forma voluntaria.',
+        'El Código prioriza el interés superior de niñas, niños y adolescentes. Sin embargo, la ley extiende explícitamente esta protección a la madre embarazada: "La asistencia familiar se otorgará a la madre, durante el periodo de embarazo, hasta el momento del alumbramiento; el mismo beneficio será transferido a la hija o hijo nacido de acuerdo a lo establecido en este Código" (Art. 109.V).'
       ]
     },
     {
-      subtitle: 'Requisitos Fundamentales',
+      subtitle: 'Implicaciones de esta Disposición Legal',
       paragraphs: [
-        'Para acceder al divorcio por mutuo acuerdo, los cónyuges deben cumplir con los siguientes requisitos establecidos en el artículo 158 del Código de las Familias:',
-        '• Acuerdo expreso de ambos cónyuges sobre la disolución del matrimonio',
-        '• Convenio regulador que establezca los términos sobre alimentos, custodia de hijos y división de bienes',
-        '• Haber transcurrido al menos un año desde la celebración del matrimonio',
-        '• Presentación conjunta de la solicitud ante juez competente'
+        'Este artículo (109.V), ubicado en el TÍTULO VII del Código, tiene varias implicaciones esenciales:',
+        '1. Garantía de Salud y Bienestar Prenatal: Al asegurar la asistencia (que incluye salud y alimentación) a la madre gestante, la ley garantiza indirectamente que el ser concebido reciba los cuidados necesarios para un desarrollo integral',
+        '2. Continuidad del Beneficio: El derecho no se extingue con el nacimiento; el beneficio se transfiere automáticamente al hijo o hija, manteniendo la seguridad económica necesaria para su crianza.',
+        '3. Obligación Parental:Aunque la asistencia se otorga directamente a la madre durante el embarazo, esta disposición refuerza el deber de ambos progenitores de cuidar y garantizar el desarrollo integral de sus hijas e hijos. La capacidad para otorgar esta asistencia se presume en el padre o la madre, a menos que demuestren lo contrario.',
+        'La protección a la madre gestante es un claro ejemplo de la visión transformadora del Estado Plurinacional, que busca consolidar el ejercicio de los derechos fundamentales de las familias y sus miembros'
       ]
     },
-    {
-      subtitle: 'Procedimiento Paso a Paso',
-      paragraphs: [
-        'El proceso de divorcio por mutuo acuerdo se desarrolla en las siguientes etapas:',
-        '1. Elaboración del Acuerdo: Redacción del convenio regulador que detalla todos los aspectos del divorcio.',
-        '2. Presentación de la Demanda: Solicitud conjunta ante el Juez de Familia con todos los documentos requeridos.',
-        '3. Audiencia de Conciliación: Comparecencia ante el juez para ratificar los acuerdos.',
-        '4. Sentencia: El juego emite la resolución que disuelve el matrimonio.'
-      ]
-    },
-    {
-      subtitle: 'Ventajas del Divorcio por Mutuo Acuerdo',
-      paragraphs: [
-        '• Rapidez: Proceso más ágil comparado con el divorcio contencioso',
-        '• Economía: Menores costos procesales y honorarios profesionales',
-        '• Menor Desgaste Emotional: Evita conflictos innecesarios entre las partes',
-        '• Control sobre los Acuerdos: Las partes deciden los términos del divorcio',
-        '• Protección de los Hijos: Ambiente más favorable para los menores involucrados'
-      ]
-    },
-    {
-      subtitle: 'Aspectos Clave del Convenio Regulador',
-      paragraphs: [
-        'El convenio regulador debe contener disposiciones claras sobre:',
-        '• Patria Potestad y Custodia: Régimen de custodia y visitas de los hijos menores',
-        '• Alimentos: Pensión alimenticia para hijos y cónyuge si corresponde',
-        '• División de Bienes: Liquidación de la sociedad conyugal',
-        '• Vivienda Familiar: Destino de la vivienda conyugal',
-        '• Gastos Educativos y de Salud: Responsabilidades compartidas'
-      ]
-    },
-    {
-      subtitle: 'Plazos y Duración del Proceso',
-      paragraphs: [
-        'El divorcio por mutuo acuerdo suele resolverse en un plazo de 2 a 4 meses, dependiendo de la carga procesal del juzgado.',
-        'Una vez presentada la demanda, la audiencia de conciliación se programa generalmente dentro de los 30 días siguientes, y la sentencia se emite aproximadamente 15 días después de la audiencia.'
-      ]
-    },
-    {
-      subtitle: 'Recomendaciones Importantes',
-      paragraphs: [
-        '• Busque asesoría legal especializada para la elaboración del convenio regulador',
-        '• Considere la mediación familiar para resolver puntos de desacuerdo',
-        '• Documente todos los acuerdos por escrito antes de iniciar el proceso',
-        '• Actualice su estado civil en todos los registros una vez obtenida la sentencia',
-        '• Cumpla diligentemente con lo establecido en el convenio regulador'
-      ]
-    }
   ]
   },
   {
-     id: '3',
-  title: 'Obligaciones y Derechos en la Asistencia Familiar Prenatal',
-  excerpt: 'La persona obligada a prestar asistencia debe aportar económicamente para cubrir gastos médicos prenatales, suplementos alimenticios, medicamentos, atención médica especializada y condiciones dignas de vida durante el embarazo.',
+  id: '3',
+  title: 'LOS DERECHOS Y DEBERES PARENTALES EN LA ESPERA: ¿QUÉ DICE LA LEY SOBRE LAS VISITAS PRENATALES?',
+  excerpt: 'En el contexto de un divorcio o separación, es común que surja la pregunta sobre el derecho del progenitor no conviviente a participar en la vida del futuro hijo, incluso antes de su nacimiento, lo que popularmente se conoce como "visitas prenatales".', 
+  description:'Aunque el Código de las Familias y del Proceso Familiar no contiene un artículo específico que regule o mencione directamente las "visitas prenatales", sí establece un marco sólido de derechos y deberes parentales que deben orientar la participación del padre o la madre separados, incluso durante el embarazo',
   author: 'Dra. Luciane Cuellar',
   date: '8 Ene 2024',
   category: 'Derecho de Familia',
   readTime: '6 min read',
   content: [
     {
-      subtitle: 'Derechos de la Mujer Gestante',
+      subtitle: 'El Régimen de Visitas General',
       paragraphs: [
-        'La mujer en estado de gestación tiene derecho a recibir asistencia familiar integral que garantice su bienestar y el desarrollo adecuado del bebé por nacer, conforme al artículo 245 de la Ley N° 603.',
-        'Este derecho incluye protección médica, alimentación especializada, condiciones dignas de vivienda y apoyo emocional durante todo el período de embarazo.'
+        'El Código sí establece un régimen de visitas (derecho de visita) una vez que el niño o la niña han nacido y existe una separación. El derecho de visita no es solo un derecho del padre o la madre, sino un deber enfocado en el bienestar del menor:',
+        '• La madre o el padre que no tiene la guarda (custodia) de los hijos tiene el derecho y el deber de visita para contribuir en su desarrollo integral.',
+        '• La ley garantiza que el progenitor no custodio pueda participar en la formación integral de los hijos, lo cual es considerado un derecho fundamental de las niñas, niño y adolescente.'
       ]
     },
     {
-      subtitle: 'Obligaciones del Proveedor',
+      subtitle: 'El Deber de Apoyo en la Gestación',
       paragraphs: [
-        'La persona obligada a prestar asistencia debe cubrir económicamente todos los gastos derivados del embarazo:',
-        '• Atención médica completa: Controles prenatales, ecografías, análisis y medicamentos',
-        '• Alimentación especial: Suplementos vitamínicos y nutrición balanceada',
-        '• Condiciones de vida: Vivienda digna y ambiente adecuado para el descanso',
-        '• Preparación al parto: Cursos de psicoprofilaxis e implementos necesarios'
+        'En ausencia de una norma específica sobre visitas prenatales, la ley enfoca la participación del progenitor no conviviente a través de dos mecanismos clave:',
+        '1. Asistencia Familiar Prenatal: Como se mencionó, la ley obliga a la prestación de asistencia familiar a la madre durante el periodo de embarazo. Esta obligación cubre necesidades esenciales como salud y alimentación, asegurando el bienestar del concebido.',
+        '2. Desarrollo Integral y Responsabilidad Compartida: El Código enfatiza que la autoridad parental (de la madre, del padre o de ambos) conlleva el deber de cuidar y garantizar el desarrollo integral de sus hijas e hijos.'
       ]
     },
     {
-      subtitle: 'Cálculo de la Asistencia Económica',
+      subtitle: 'Interpretación Legal',
       paragraphs: [
-        'El monto de la asistencia se determina considerando:',
-        '• Necesidades específicas del embarazo y prescripciones médicas',
-        '• Capacidad económica del obligado y situación de la gestante',
-        '• Costos reales de atención médica y suplementos requeridos',
-        '• Gastos de alojamiento y condiciones de vida adecuadas'
+        'Es importante destacar que, aunque el progenitor no tenga un derecho explícito de "visita", el espíritu de la ley busca la corresponsabilidad y la protección del Interés Superior de la Niña, Niño y Adolescente.',
+        'Si un progenitor solicita participar en el proceso de gestación (ej. asistiendo a ecografías o apoyando decisiones médicas), esta petición debería ser evaluada judicialmente basándose en si dicha participación contribuye al desarrollo integral del futuro hijo y si respeta el bienestar y la dignidad de la madre. El marco legal apoya que la madre o el padre conserven relaciones personales con los hijos que permitan las circunstancias, incluso si no ejercen la autoridad parental.',
+        'Aunque el término "visitas prenatales" no está codificado, la ley facilita el apoyo económico y la participación en el desarrollo integral, obligando a los padres a mantener un vínculo que beneficie al niño, desde antes de nacer.'
       ]
     },
-    {
-      subtitle: 'Procedimiento para Reclamar',
-      paragraphs: [
-        '• La mujer gestante puede solicitar la asistencia familiar mediante:',
-        '• Demanda ante Juez de Familia: Presentación directa sin necesidad de abogado',
-        '• Medidas Cautelares: Solicitud de pensión provisional inmediata',
-        '• Pruebas: Certificado médico que acredite el embarazo y necesidades específicas',
-        '• El proceso es gratuito y prioritario, con plazos perentorios para su resolución.'
-      ]
-    },
-    {
-      subtitle: 'Consecuencias del Incumplimiento',
-      paragraphs: [
-        'Ante el incumplimiento de las obligaciones, la ley establece:',
-        '• Embargos preventivos: Sobre bienes y cuentas bancarias del obligado',
-        '• Retención salarial: Hasta el 50% del sueldo o ingresos',
-        '• Apremio corporal: Prisión en casos de resistencia reiterada',
-        '• Multas coercitivas: Sanciones económicas progresivas'
-      ]
-    },
-    {
-      subtitle: 'Duración de la Obligación',
-      paragraphs: [
-        'La asistencia familiar prenatal se extiende durante todo el embarazo y hasta:',
-        '• 45 días después del parto para la recuperación de la madre',
-        '• El inicio de la pensión alimenticia regular para el hijo/a',
-        'En caso de complicaciones postparto, el plazo puede extenderse según prescripción médica.'
-      ]
-    }
   ]
   },
   {
 id: '4',
-  title: 'Custodia y Régimen de Visitas: Guía Legal en Bolivia',
-  excerpt: 'Todo sobre la determinación de custodia, visitas paternales y derechos de convivencia según el interés superior del menor en Bolivia.',
-  author: 'Dra. Alicia Vargas',
+  title: 'LA GUARDA Y TUTELA DE LAS HIJAS E HIJOS EN EL PROCESO DE DIVORCIO',
+  excerpt: 'El Código de las Familias y del Proceso Familiar (Ley Nº 603) prioriza de manera vanguardista y clara el interés superior de las niñas, niños y adolescentes en todo momento. Este principio guía las decisiones de la autoridad judicial al momento de determinar la situación de los hijos menores de edad cuando se disuelve el vínculo conyugal.',
+  author: 'Dra. Alejandra López',
   date: '10 Ene 2024',
   category: 'Derecho de Familia',
   readTime: '7 min read',
   content: [
     {
-      subtitle: 'Principio del Interés Superior del Menor',
+      subtitle: 'La Autoridad Parental y la Desvinculación',
       paragraphs: [
-        'El Código de las Familias establece que todas las decisiones sobre custodia y visitas deben priorizar el bienestar integral del niño o niña.',
-        'Este principio garantiza que los derechos de los menores prevalezcan sobre cualquier otro interés en los procesos familiares.'
+        'La autoridad de la madre, del padre, o de ambos, es una función de carácter natural y jurídico que implica derechos y obligaciones respecto a sus hijos menores de edad, ejercida bajo vigilancia de las autoridades públicas.',
+        'Cuando ocurre el divorcio o la nulidad de la unión conyugal, la autoridad sobre las hijas e hijos menores se ejerce de manera exclusiva por la madre o el padre, siempre resguardando el interés superior de los niños y adolescentes'
       ]
     },
     {
-      subtitle: 'Tipos de Custodia',
+      subtitle: 'Determinación de la Situación Circunstancial y la Guarda',
       paragraphs: [
-        '• Custodia exclusiva: Un progenitor tiene la custodia principal y el otro derecho de visitas',
-        '• Custodia compartida: Ambos padres comparten tiempo y responsabilidades de manera equilibrada',
-        '• Custodia a terceros: En casos excepcionales, se otorga a familiares cercanos',
-        'La elección depende de las circunstancias específicas de cada familia y las necesidades del menor.'
+        'En el proceso judicial de divorcio o desvinculación, la autoridad judicial debe determinar la situación circunstancial de las hijas e hijos, considerando siempre su mejor cuidado e interés moral y material.',
+        'La guarda de los hijos menores quedará en poder de la madre o del padre que ofrezca mayores garantías para su cuidado, moral e interés material. Es importante destacar que el otro cónyuge tiene la obligación de contribuir a la manutención de los mismos mediante la asistencia familiar.',
+        'Si los padres llegan a un acuerdo regulador de divorcio o desvinculación, este debe incluir obligatoriamente la guarda y tutela de las hijas e hijos, junto con el régimen de visitas y la asistencia familiar. Este acuerdo será homologado por la autoridad judicial siempre que esté conforme a las disposiciones del Código.',
+        'La autoridad judicial puede dictar resoluciones modificatorias en cualquier momento, de oficio o a petición de parte, si el interés de las hijas e hijos así lo requiere.',
+        'La Guarda Compartida: Fomento de la Corresponsabilidad',
+        'El Código de las Familias y del Proceso Familiar reconoce un régimen innovador: la guarda compartida.',
+        '1. Objetivo y Naturaleza: La guarda compartida es un régimen de vida que busca estimular la corresponsabilidad de ambos padres separados en la crianza y educación de sus hijos comunes.',
+        '2. Requisito: Debe establecerse mediante un acuerdo voluntario que asegure la adecuada estabilidad y continuidad para el niño.',
+        '3. Supervisión: El acuerdo de guarda compartida debe establecer la frecuencia de la relación directa y regular, así como el sistema de asistencia familiar, y se realiza bajo la supervisión del equipo interdisciplinario de la Defensoría de la Niñez y Adolescencia.',
+        '4. Cese: Si la guarda compartida no garantiza la estabilidad y continuidad para la integridad de los hijos, la Defensoría de la Niñez y Adolescencia o cualquiera de los padres puede solicitar su cese, y la autoridad judicial tomará las medidas necesarias para la protección de los hijos.'
       ]
     },
     {
-      subtitle: 'Régimen de Visitas y Convivencia',
+      subtitle: 'Derechos y Deberes del Cónyuge sin Guarda',
       paragraphs: [
-        'El progenitor no custodio tiene derecho a:',
-        '• Visitas regulares y periódicas según calendario establecido',
-        '• Convivencia en fines de semana alternos y vacaciones escolares',
-        '• Comunicación permanente por medios electrónicos',
-        '• Participación en actividades educativas y recreativas del hijo'
+        'El progenitor que no obtiene la guarda mantiene el derecho y el deber de visita en las condiciones que fije la autoridad judicial, además del deber de contribuir al desarrollo integral de las y los hijos.',
+        'En este contexto, la protección de los derechos de los menores es primordial:',
+        '• Riesgo Grave: Si un informe de la Defensoría de la Niñez y Adolescencia establece que existe un grave riesgo para la integridad de los hijos, el derecho de visita se suspenderá.',
+        '• Incumplimiento de Visitas: Si el padre o madre que tiene la guarda no permite de forma recurrente por tres (3) veces consecutivas el derecho de visita, la autoridad judicial, previa verificación de la Defensoría de la niñez y adolescencia, revocará la guarda y la confiará al otro cónyuge o a un tercero.',
+        '• Respeto a la Decisión del Menor: Si la o el hijo no quiere compartir con su padre o madre, la autoridad judicial debe respetar su decisión, siempre que existan causas justificadas.'
       ]
     },
     {
-      subtitle: 'Factores para Determinar la Custodia',
+      subtitle: 'Consideraciones sobre Tutela y Protección',
       paragraphs: [
-        'El juez considera para la decisión:',
-        '• Vínculo afectivo con cada progenitor',
-        '• Capacidad económica y estabilidad laboral',
-        '• Entorno familiar y condiciones de vivienda',
-        '• Opinión del menor (según su edad y madurez)',
-        '• Conducta y aptitud parental de cada progenitor'
+        'Si la guarda de los hijos se confía a ascendientes (abuelos), hermanos de los cónyuges, o a un tercero, se aplicarán las reglas de guarda o tutela contenidas en el Código Niña, Niño y Adolescente.',
+        'Además, la autoridad judicial tiene la obligación de garantizar la seguridad y protección de los miembros de la familia:',
+        '• Si se identifican indicios de tentativa, complicidad o instigación al delito de uno de los cónyuges contra la vida o la integridad (física, psicológica, sexual, trata y tráfico) de la otra u otro cónyuge o sus descendientes, la autoridad judicial debe disponer las medidas necesarias de protección para la parte afectada y sus hijos.'
       ]
     },
-    {
-      subtitle: 'Modificación del Régimen',
-      paragraphs: [
-        'Los acuerdos de custodia y visitas pueden modificarse cuando:',
-        '• Cambian las circunstancias del menor o los padres',
-        '• Se afecta el interés superior del niño',
-        '• Existe incumplimiento reiterado del régimen establecido',
-        '• El menor manifiesta necesidades diferentes'
-      ]
-    },
-    {
-      subtitle: 'Ejecución y Cumplimiento',
-      paragraphs: [
-        'Ante el incumplimiento del régimen de visitas:',
-        '• Se puede solicitar auxilio judicial para hacer cumplir los acuerdos',
-        '• El juez puede imponer multas coercitivas al progenitor incumplidor',
-        '• En casos graves, puede modificarse la custodia',
-        '• Se promueve la mediación familiar para resolver conflictos'
-      ]
-    }
   ]
   },
   {

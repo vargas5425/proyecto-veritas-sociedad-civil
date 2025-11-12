@@ -325,7 +325,7 @@ const Contact = () => {
               <div className="mb-3">
                 <i className="fas fa-phone text-primary me-2"></i>
                 <strong>Teléfono:</strong><br />
-                +591 (700) 567-890
+                +591 77802050
               </div>
               <div className="mb-3">
                 <i className="fas fa-envelope text-primary me-2"></i>
