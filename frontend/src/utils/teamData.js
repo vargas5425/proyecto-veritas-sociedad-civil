@@ -4,7 +4,7 @@ export const teamMembers = {
     id: '1',
     name: 'ALICIA',
     lastName: 'VARGAS',
-    position: 'Socio',
+    position: 'Socia',
     email: 'ali_32_23@hotmail.com',
     whatsapp: '59170405747',
     image: '/images/alicia2.png',
@@ -44,7 +44,7 @@ export const teamMembers = {
     id: '3',
     name: 'NAZIRA',
     lastName: 'MORALES',
-    position: 'Asociado Senior',
+    position: 'Socia',
     email: 'moralesrojasnaz@gmail.com',
     whatsapp: '59174180816',
     image: '/images/nazira2.png',
@@ -57,14 +57,14 @@ export const teamMembers = {
       'Maestría en Derecho Civil y Procesal Familiar, Universidad Pública de El Alto (UPEA).',
       'Curso avanzado en Desvinculación Notarial y Divorcio, Universidad Privada Boliviana (UPB).'
     ],
-    description: "Experta en gestión integral de requisitos para desvinculación notarial, incluyendo liquidación de bienes gananciales y acuerdos de asistencia familiar"
+    description: "Experta en Derecho de Familia, especialmente en divorcio y desvinculación notarial conforme a la Ley N° 603"
   },
 
   '4': {
     id: '4',
     name: 'ALEJANDRA',
     lastName: 'LÓPEZ',
-    position: 'Especialista Legal',
+    position: 'Socia',
     email: 'marynelopezguardia89@gmail.com',
     whatsapp: '59176854219',
     image: '/images/lopez2.png',
