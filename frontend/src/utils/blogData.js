@@ -7,7 +7,7 @@ export const blogPosts = [
     author: 'Dra. Nazira Morales',
     date: '15 Ene 2024',
     category: 'Derecho de Familia',
-    readTime: '5 min read',
+    readTime: '5 min',
     content: [
     {
       subtitle: '¿Cuándo procede el Divorcio Notarial?',
@@ -42,7 +42,7 @@ export const blogPosts = [
   author: 'Dra. Alicia Vargas',
   date: '12 Ene 2024',
   category: 'Derecho de Familia',
-  readTime: '8 min read',
+  readTime: '8 min',
   content: [
     {
       subtitle: '¿Qué es la Asistencia Familiar?',
@@ -67,11 +67,10 @@ export const blogPosts = [
   id: '3',
   title: 'LOS DERECHOS Y DEBERES PARENTALES EN LA ESPERA: ¿QUÉ DICE LA LEY SOBRE LAS VISITAS PRENATALES?',
   excerpt: 'En el contexto de un divorcio o separación, es común que surja la pregunta sobre el derecho del progenitor no conviviente a participar en la vida del futuro hijo, incluso antes de su nacimiento, lo que popularmente se conoce como "visitas prenatales".', 
-  description:'Aunque el Código de las Familias y del Proceso Familiar no contiene un artículo específico que regule o mencione directamente las "visitas prenatales", sí establece un marco sólido de derechos y deberes parentales que deben orientar la participación del padre o la madre separados, incluso durante el embarazo',
   author: 'Dra. Luciane Cuellar',
   date: '8 Ene 2024',
   category: 'Derecho de Familia',
-  readTime: '6 min read',
+  readTime: '6 min',
   content: [
     {
       subtitle: 'El Régimen de Visitas General',
@@ -106,7 +105,7 @@ id: '4',
   author: 'Dra. Alejandra López',
   date: '10 Ene 2024',
   category: 'Derecho de Familia',
-  readTime: '7 min read',
+  readTime: '7 min',
   content: [
     {
       subtitle: 'La Autoridad Parental y la Desvinculación',
@@ -157,7 +156,7 @@ id: '4',
   author: 'Dra. Luciane Cuellar',
   date: '25 Ene 2024',
   category: 'Derecho de Familia',
-  readTime: '3 min read',
+  readTime: '3 min',
   content: [
     {
       subtitle: 'Fijación de la Pensión Alimenticia',
@@ -202,10 +201,10 @@ id: '4',
      id: '6',
   title: 'Cómo solicitar medidas cautelares y provisionales para garantizar el cumplimiento inmediato de obligaciones alimenticias',
   excerpt: 'Guía práctica para solicitar medidas de protección inmediata que aseguren el pago de pensiones alimenticias y protejan los derechos de los beneficiarios.',
-  author: 'Dra. Alejandra López',
+  author: 'Dra. Alicia Vargas',
   date: '9 Ene 2024',
   category: 'Derecho de Familia',
-  readTime: '4 min read',
+  readTime: '4 min',
   content: [
     {
       subtitle: '¿Qué son las medidas cautelares?',
@@ -251,76 +250,6 @@ id: '4',
         '• El juez las levante por haber desaparecido el riesgo',
         '• Se cumpla la obligación alimenticia de manera integral',
         'Pueden modificarse o ampliarse según evolucione el caso.'
-      ]
-    }
-  ]
-  },
-  {
-    id: '8',
-  title: 'Desvinculación Notarial: Requisitos y Procedimiento en Bolivia',
-  excerpt: 'Guía completa sobre los requisitos legales para el divorcio administrativo ante notario de acuerdo a la Ley 603.',
-  author: 'Dra. Nazira Morales',
-  date: '2 Ene 2024',
-  category: 'Derecho de Familia',
-  readTime: '6 min read',
-  content: [
-    {
-      subtitle: '¿Qué es la Desvinculación Notarial?',
-      paragraphs: [
-        'La desvinculación notarial es un procedimiento administrativo que permite disolver el matrimonio ante notario público, sin necesidad de acudir a un juez.',
-        'Está regulada por el Código de las Familias (Ley 603) como una alternativa ágil y eficiente al divorcio judicial.'
-      ]
-    },
-    {
-      subtitle: 'Requisitos Esenciales',
-      paragraphs: [
-        'Para acceder a la desvinculación notarial se requiere:',
-        '• Acuerdo mutuo de ambos cónyuges',
-        '• Ausencia de hijos menores o con discapacidad',
-        '• Liquidación completa de la sociedad conyugal',
-        '• Matrimonio con al menos un (1) año de duración',
-        '• Presentación personal de ambos cónyuges'
-      ]
-    },
-    {
-      subtitle: 'Documentación Requerida',
-      paragraphs: [
-        '• Certificado de matrimonio original',
-        '• Documentos de identidad vigentes de ambos cónyuges',
-        '• Convenio regulador de todos los aspectos del divorcio',
-        '• Inventario y liquidación de bienes conyugales',
-        '• Certificado de no tener hijos menores o con discapacidad'
-      ]
-    },
-    {
-      subtitle: 'Procedimiento Paso a Paso',
-      paragraphs: [
-        '1. Elaboración del convenio: Redacción detallada de todos los acuerdos',
-        '2. Presentación notarial: Comparecencia conjunta ante notario',
-        '3. Ratificación de acuerdos: Manifestación expresa de voluntad',
-        '4. Escritura pública: Formalización de la desvinculación',
-        '5. Registro: Inscripción en el Registro Civil correspondiente'
-      ]
-    },
-    {
-      subtitle: 'Ventajas sobre el Divorcio Judicial',
-      paragraphs: [
-        '• Rapidez: Resolución en 15-30 días hábiles',
-        '• Economía: Menores costos notariales vs. judiciales',
-        '• Privacidad: Procedimiento reservado en notaría',
-        '• Flexibilidad: Los cónyuges controlan los términos',
-        '• Menor desgaste: Sin confrontación judicial'
-      ]
-    },
-    {
-      subtitle: 'Limitaciones y Restricciones',
-      paragraphs: [
-        'No procede la desvinculación notarial cuando:',
-        '• Existen hijos menores de edad o con discapacidad',
-        '• Hay desacuerdo en algún aspecto del divorcio',
-        '• No se puede liquidar la sociedad conyugal',
-        '• Uno de los cónyuges se encuentra incapacitado',
-        '• Existen bienes sujetos a registros especiales'
       ]
     }
   ]

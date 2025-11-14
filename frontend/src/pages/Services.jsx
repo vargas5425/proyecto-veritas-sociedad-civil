@@ -80,9 +80,9 @@ const Services = () => {
           <div className="bg-primary text-white p-5 rounded">
             <h3 className="mb-3">¿Necesita asesoría legal especializada?</h3>
             <p className="mb-4">Contáctenos para una consulta inicial sin costo</p>
-            <a href="/contact" className="btn btn-light btn-lg">
+            <button className="btn btn-light btn-lg" onClick={() => window.location.href = '/contact'}>
               Solicitar Consulta
-            </a>
+            </button>
           </div>
         </div>
       </div>
