@@ -21,6 +21,7 @@ const Footer = () => {
               <a href="https://www.facebook.com/share/1ALosxP1K7/?mibextid=wwXIfr" target='_blank' className="text-white me-3"><i className="fab fa-facebook-f"></i></a>
               <a href="https://www.instagram.com/marianodi8141?igsh=MTdhMTQzc3hxd3dzMQ%3D%3D&utm_source=qr" target='_blank' className="text-white me-3"><i className="fab fa-instagram"></i></a>
               <a href="https://wa.me/59177802050?text=Hola,%20me%20interesa%20obtener%20más%20información" target="_blank"className="text-white me-3"><i className="fab fa-whatsapp"></i></a>
+              <a href="https://www.linkedin.com/in/veritas-sociedad-civil-81310b399" target='_blank' className="text-white me-3"><i className="fab fa-linkedin-in"></i></a>
             </div>
           </div>
         </div>
